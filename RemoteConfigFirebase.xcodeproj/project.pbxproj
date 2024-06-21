@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD784D572C26276000CAC2E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD784D562C26276000CAC2E8 /* AppDelegate.swift */; };
+		BD784D592C26276000CAC2E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD784D582C26276000CAC2E8 /* SceneDelegate.swift */; };
+		BD784D5B2C26276000CAC2E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD784D5A2C26276000CAC2E8 /* ViewController.swift */; };
+		BD784D5E2C26276000CAC2E8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BD784D5D2C26276000CAC2E8 /* Base */; };
+		BD784D602C26276200CAC2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD784D5F2C26276200CAC2E8 /* Assets.xcassets */; };
+		BD784D632C26276200CAC2E8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BD784D622C26276200CAC2E8 /* Base */; };
+		BD784D6E2C26276200CAC2E8 /* RemoteConfigFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD784D6D2C26276200CAC2E8 /* RemoteConfigFirebaseTests.swift */; };
+		BD784D782C26276200CAC2E8 /* RemoteConfigFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD784D772C26276200CAC2E8 /* RemoteConfigFirebaseUITests.swift */; };
+		BD784D7A2C26276200CAC2E8 /* RemoteConfigFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD784D792C26276200CAC2E8 /* RemoteConfigFirebaseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD784D6A2C26276200CAC2E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD784D4B2C26276000CAC2E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD784D522C26276000CAC2E8;
+			remoteInfo = RemoteConfigFirebase;
+		};
+		BD784D742C26276200CAC2E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD784D4B2C26276000CAC2E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD784D522C26276000CAC2E8;
+			remoteInfo = RemoteConfigFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD784D532C26276000CAC2E8 /* RemoteConfigFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteConfigFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD784D562C26276000CAC2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD784D582C26276000CAC2E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD784D5A2C26276000CAC2E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD784D5D2C26276000CAC2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD784D5F2C26276200CAC2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD784D622C26276200CAC2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD784D642C26276200CAC2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD784D692C26276200CAC2E8 /* RemoteConfigFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteConfigFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD784D6D2C26276200CAC2E8 /* RemoteConfigFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigFirebaseTests.swift; sourceTree = "<group>"; };
+		BD784D732C26276200CAC2E8 /* RemoteConfigFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteConfigFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD784D772C26276200CAC2E8 /* RemoteConfigFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigFirebaseUITests.swift; sourceTree = "<group>"; };
+		BD784D792C26276200CAC2E8 /* RemoteConfigFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD784D502C26276000CAC2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD784D662C26276200CAC2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD784D702C26276200CAC2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD784D4A2C26276000CAC2E8 = {
+			isa = PBXGroup;
+			children = (
+				BD784D552C26276000CAC2E8 /* RemoteConfigFirebase */,
+				BD784D6C2C26276200CAC2E8 /* RemoteConfigFirebaseTests */,
+				BD784D762C26276200CAC2E8 /* RemoteConfigFirebaseUITests */,
+				BD784D542C26276000CAC2E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD784D542C26276000CAC2E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD784D532C26276000CAC2E8 /* RemoteConfigFirebase.app */,
+				BD784D692C26276200CAC2E8 /* RemoteConfigFirebaseTests.xctest */,
+				BD784D732C26276200CAC2E8 /* RemoteConfigFirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD784D552C26276000CAC2E8 /* RemoteConfigFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				BD784D562C26276000CAC2E8 /* AppDelegate.swift */,
+				BD784D582C26276000CAC2E8 /* SceneDelegate.swift */,
+				BD784D5A2C26276000CAC2E8 /* ViewController.swift */,
+				BD784D5C2C26276000CAC2E8 /* Main.storyboard */,
+				BD784D5F2C26276200CAC2E8 /* Assets.xcassets */,
+				BD784D612C26276200CAC2E8 /* LaunchScreen.storyboard */,
+				BD784D642C26276200CAC2E8 /* Info.plist */,
+			);
+			path = RemoteConfigFirebase;
+			sourceTree = "<group>";
+		};
+		BD784D6C2C26276200CAC2E8 /* RemoteConfigFirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD784D6D2C26276200CAC2E8 /* RemoteConfigFirebaseTests.swift */,
+			);
+			path = RemoteConfigFirebaseTests;
+			sourceTree = "<group>";
+		};
+		BD784D762C26276200CAC2E8 /* RemoteConfigFirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD784D772C26276200CAC2E8 /* RemoteConfigFirebaseUITests.swift */,
+				BD784D792C26276200CAC2E8 /* RemoteConfigFirebaseUITestsLaunchTests.swift */,
+			);
+			path = RemoteConfigFirebaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD784D522C26276000CAC2E8 /* RemoteConfigFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD784D7D2C26276200CAC2E8 /* Build configuration list for PBXNativeTarget "RemoteConfigFirebase" */;
+			buildPhases = (
+				BD784D4F2C26276000CAC2E8 /* Sources */,
+				BD784D502C26276000CAC2E8 /* Frameworks */,
+				BD784D512C26276000CAC2E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteConfigFirebase;
+			productName = RemoteConfigFirebase;
+			productReference = BD784D532C26276000CAC2E8 /* RemoteConfigFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD784D682C26276200CAC2E8 /* RemoteConfigFirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD784D802C26276200CAC2E8 /* Build configuration list for PBXNativeTarget "RemoteConfigFirebaseTests" */;
+			buildPhases = (
+				BD784D652C26276200CAC2E8 /* Sources */,
+				BD784D662C26276200CAC2E8 /* Frameworks */,
+				BD784D672C26276200CAC2E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD784D6B2C26276200CAC2E8 /* PBXTargetDependency */,
+			);
+			name = RemoteConfigFirebaseTests;
+			productName = RemoteConfigFirebaseTests;
+			productReference = BD784D692C26276200CAC2E8 /* RemoteConfigFirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD784D722C26276200CAC2E8 /* RemoteConfigFirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD784D832C26276200CAC2E8 /* Build configuration list for PBXNativeTarget "RemoteConfigFirebaseUITests" */;
+			buildPhases = (
+				BD784D6F2C26276200CAC2E8 /* Sources */,
+				BD784D702C26276200CAC2E8 /* Frameworks */,
+				BD784D712C26276200CAC2E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD784D752C26276200CAC2E8 /* PBXTargetDependency */,
+			);
+			name = RemoteConfigFirebaseUITests;
+			productName = RemoteConfigFirebaseUITests;
+			productReference = BD784D732C26276200CAC2E8 /* RemoteConfigFirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD784D4B2C26276000CAC2E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BD784D522C26276000CAC2E8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BD784D682C26276200CAC2E8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BD784D522C26276000CAC2E8;
+					};
+					BD784D722C26276200CAC2E8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BD784D522C26276000CAC2E8;
+					};
+				};
+			};
+			buildConfigurationList = BD784D4E2C26276000CAC2E8 /* Build configuration list for PBXProject "RemoteConfigFirebase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD784D4A2C26276000CAC2E8;
+			productRefGroup = BD784D542C26276000CAC2E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD784D522C26276000CAC2E8 /* RemoteConfigFirebase */,
+				BD784D682C26276200CAC2E8 /* RemoteConfigFirebaseTests */,
+				BD784D722C26276200CAC2E8 /* RemoteConfigFirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD784D512C26276000CAC2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD784D602C26276200CAC2E8 /* Assets.xcassets in Resources */,
+				BD784D632C26276200CAC2E8 /* Base in Resources */,
+				BD784D5E2C26276000CAC2E8 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD784D672C26276200CAC2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD784D712C26276200CAC2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD784D4F2C26276000CAC2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD784D5B2C26276000CAC2E8 /* ViewController.swift in Sources */,
+				BD784D572C26276000CAC2E8 /* AppDelegate.swift in Sources */,
+				BD784D592C26276000CAC2E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD784D652C26276200CAC2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD784D6E2C26276200CAC2E8 /* RemoteConfigFirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD784D6F2C26276200CAC2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD784D782C26276200CAC2E8 /* RemoteConfigFirebaseUITests.swift in Sources */,
+				BD784D7A2C26276200CAC2E8 /* RemoteConfigFirebaseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD784D6B2C26276200CAC2E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD784D522C26276000CAC2E8 /* RemoteConfigFirebase */;
+			targetProxy = BD784D6A2C26276200CAC2E8 /* PBXContainerItemProxy */;
+		};
+		BD784D752C26276200CAC2E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD784D522C26276000CAC2E8 /* RemoteConfigFirebase */;
+			targetProxy = BD784D742C26276200CAC2E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD784D5C2C26276000CAC2E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD784D5D2C26276000CAC2E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD784D612C26276200CAC2E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD784D622C26276200CAC2E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD784D7B2C26276200CAC2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD784D7C2C26276200CAC2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD784D7E2C26276200CAC2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteConfigFirebase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.RemoteConfigFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD784D7F2C26276200CAC2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteConfigFirebase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.RemoteConfigFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD784D812C26276200CAC2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.RemoteConfigFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteConfigFirebase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RemoteConfigFirebase";
+			};
+			name = Debug;
+		};
+		BD784D822C26276200CAC2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.RemoteConfigFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteConfigFirebase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RemoteConfigFirebase";
+			};
+			name = Release;
+		};
+		BD784D842C26276200CAC2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.RemoteConfigFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoteConfigFirebase;
+			};
+			name = Debug;
+		};
+		BD784D852C26276200CAC2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.RemoteConfigFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoteConfigFirebase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD784D4E2C26276000CAC2E8 /* Build configuration list for PBXProject "RemoteConfigFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD784D7B2C26276200CAC2E8 /* Debug */,
+				BD784D7C2C26276200CAC2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD784D7D2C26276200CAC2E8 /* Build configuration list for PBXNativeTarget "RemoteConfigFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD784D7E2C26276200CAC2E8 /* Debug */,
+				BD784D7F2C26276200CAC2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD784D802C26276200CAC2E8 /* Build configuration list for PBXNativeTarget "RemoteConfigFirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD784D812C26276200CAC2E8 /* Debug */,
+				BD784D822C26276200CAC2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD784D832C26276200CAC2E8 /* Build configuration list for PBXNativeTarget "RemoteConfigFirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD784D842C26276200CAC2E8 /* Debug */,
+				BD784D852C26276200CAC2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD784D4B2C26276000CAC2E8 /* Project object */;
+}
